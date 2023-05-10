@@ -8,10 +8,14 @@ const Home = () => {
         {title: 'ITP Accepted Internship Journey', body:'lorem ipsum...', author: 'cosmo', id:3}
     ]);
 
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blog => blog.id !== id);
+        setBlogs(newBlogs);
+    }
+
     return (  
         <div className="home">
-            <BlogList blogs={blogs} title="All blogs!"/>
-            <BlogList blogs={blogs.filter((blog) => blog.author === 'cosmo')} title="Cosmo's blogs"/>
+            <BlogList blogs={blogs} title="All blogs!" handleDelete={handleDelete}/>
         </div>
     );
 }
