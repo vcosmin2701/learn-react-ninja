@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "My first blog",
+      "body": "We do we use it\nadajkdhajshdkasjdhaksjdhaksdj",
+      "author": "Cosmo",
+      "id": 1
+    },
+    {
+      "title": "I'm learning React , first step to ITP",
+      "body": "I'm trying really hard for this",
+      "author": "cosmo",
+      "id": 3
+    },
+    {
+      "title": "Concurs CSM 2023",
+      "body": "Particip la sectiunea Debutanti",
+      "author": "mili",
+      "id": 6
+    }
+  ]
+}
